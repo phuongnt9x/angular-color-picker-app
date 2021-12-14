@@ -1,0 +1,5 @@
+<h2>Pick Color</h2>
+<input #element type="color"  size="30" (change)="changeColor(element.value)">
+<p class="output" [style.background-color]="color" >
+  This is a paragraph.
+</p>
